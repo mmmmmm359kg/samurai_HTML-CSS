@@ -1,0 +1,40 @@
+2021-09-15 22:31:01 [ERROR]: log level: info
+2021-09-15 22:31:01 [INFO]: Retrieving AWS endpoint data
+2021-09-15 22:31:01 [INFO]: OS:  Linux x64 4.14.243-185.433.amzn2.x86_64
+2021-09-15 22:31:01 [INFO]: AWS Cloud9 Extension Host Version:  1.42.0AWS Toolkit Version:  1.27.0-6c4644db65c7
+2021-09-15 22:31:02 [INFO]: autoconnect: connected: 'profile:default'
+2021-09-15 22:36:02 [INFO]: Successfully sent a telemetry batch of 9
+2021-09-15 22:39:39 [ERROR]: [UnrecognizedClientException: The security token included in the request is invalid
+	at Object.l [as extractError] (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:44:7865)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:44:12804)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:22254)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:21963)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:7927)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:3513)
+	at B.runTo (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:57:1736)
+	at /opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:57:1948
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:3724)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:7982)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:22358)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:21963)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:7927)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:3513)
+	at B.runTo (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:57:1736)
+	at /opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:57:1948
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:3724)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:7982)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:22358)
+	at e (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:45:22139)
+	at IncomingMessage.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/1b236c4bb79003aaa73ec9e75785c63f5eff6ac3d7735eba98627454a59063cc6252a33a010b675b577925df232243d2ddc9296ac4661bf8636eea2cf6e97976/dist/extension.js:40:6016189)
+	at IncomingMessage.emit (events.js:326:22)
+	at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+	at endReadableNT (_stream_readable.js:1241:12)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  code: 'UnrecognizedClientException',
+  time: 2021-09-15T22:39:39.928Z,
+  requestId: 'fb4adb62-ae0c-45ad-b7d7-9920afc8f4eb',
+  statusCode: 403,
+  retryable: false,
+  retryDelay: 15.307231374019858
+}
+2021-09-15 22:41:03 [INFO]: Successfully sent a telemetry batch of 9
